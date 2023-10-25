@@ -1,4 +1,4 @@
-# streamlit-multipage-template
+# map-template
 
 A streamlit multipage app template for geospatial applications. It can be deployed to [Streamlit Cloud](https://streamlit.io/cloud) or [MyBinder](https://mybinder.org/).
 
