@@ -14,13 +14,15 @@ st.sidebar.info(markdown)
 logo = "https://media.licdn.com/dms/image/D4E35AQFj0aysS6dqdQ/profile-framedphoto-shrink_400_400/0/1694531240649?e=1698847200&v=beta&t=yjABcii5ifUPj63oBUyECbqro0Jtj_WhxpOxnYFr4Rc"
 st.sidebar.image(logo)
 st.sidebar.write("Modified by Noah Portman 2023")
+st.sidebar.markdown('[LinkedIn](https://www.linkedin.com/noah-portman/)')
+st.sidebar.markdown('[Website](https://www.noahportman.com/)')
 
 # Customize page title
-st.title("Welcome to this Geosptial Application")
+st.title("Welcome to My Geosptial Application")
 
 st.markdown(
     """
-    This multipage app template demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template).
+    This multipage app demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template).
     """
 )
 
