@@ -22,7 +22,7 @@ st.title("Welcome to My Geosptial Application")
 
 st.markdown(
     """
-    This multipage app demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project and you are very welcome to contribute to the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template).
+    This multipage app demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and [leafmap](https://leafmap.org). It is an open-source project inspired by [Professor Qiusheng Wu](https://geography.utk.edu/about-us/faculty/dr-qiusheng-wu/) at University of Tennessee and you are very welcome to contribute to his [GitHub repository](https://github.com/giswqs/streamlit-multipage-template).
     """
 )
 
@@ -31,8 +31,8 @@ markdown = """
 
 """
 
-st.markdown(markdown)
+# st.markdown(markdown)
 
-m = leafmap.Map(minimap_control=True)
-m.add_basemap("OpenTopoMap")
-m.to_streamlit(height=500)
+# m = leafmap.Map(minimap_control=True)
+# m.add_basemap("OpenTopoMap")
+# m.to_streamlit(height=500)
