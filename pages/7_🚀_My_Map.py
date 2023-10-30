@@ -36,7 +36,7 @@ bbox_polygon = Polygon([(min_lon, min_lat), (max_lon, min_lat), (max_lon, max_la
 bbox_geojson = gpd.GeoSeries([bbox_polygon]).__geo_interface__
 
 # Load the county GeoJSON file locally
-county_geojson_path = "C:\Users\noahportman\apps\map-template\shapefiles\WV_County_Boundaries.geojson"
+county_geojson_path = r"C:\Users\noahportman\apps\map-template\shapefiles\WV_County_Boundaries.geojson"
 
 # Calculate the center of the bounding box
 center_lat = (min_lat + max_lat) / 2
